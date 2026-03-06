@@ -26,8 +26,3 @@ class Druid(Elf):
             f"{self.nickname} has a favourite spell: "
             f"{self._favourite_spell}"
         )
-
-    def declared(
-        self
-    ) -> None:
-        pass

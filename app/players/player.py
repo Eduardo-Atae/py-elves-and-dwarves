@@ -21,9 +21,3 @@ class Player(ABC):
         self
     ) -> str:
         pass
-
-    @abstractmethod
-    def declared(
-        self
-    ) -> None:
-        pass
